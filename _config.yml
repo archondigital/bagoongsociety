@@ -1,0 +1,23 @@
+# Site settings
+title: Bagoong Society
+email: overlord@archon-digital.com
+description: "A fictional republic in South East Asia run by an oppresive regime."
+baseurl: "http://archon.digital/bagoongsociety"
+url: ""
+username: archondigital
+timezone: Asia/Manila
+paginate: 5
+paginate_path: "articles/:num"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+gems:
+- jekyll-redirect-from
+#   - jekyll-sitemap
+
+# ads, analytics and disqus
+enable_disqus: true
+enable_adsense: true
+enable_analytics: true

@@ -1,68 +1,86 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ang Bagoong Society by archondigital</title>
+---
+layout: home
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Ang Bagoong Society</h1>
-        <p>Make our Republic great again.</p>
+<div id="about" class="about h50">
+	<div class="panel">
+		<div class="row fullwidth">
+			
+			<div class="large-8 large-centered columns">
+				<h1>Bagoong Society</h1>
+				
+				<p>A fictional republic in South East Asia run by an oppresive regime. The regime came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech.</p>
 
-        <p class="view"><a href="https://github.com/archondigital/bagoongsociety">View the Project on GitHub <small>archondigital/bagoongsociety</small></a></p>
+			</div>
+		</div>	
+	</div>
+</div>
 
+<div id="articles" class="articles">
+	<div class="row">
+		<div class="large-8 columns">
 
-        <ul>
-          <li><a href="https://github.com/archondigital/bagoongsociety/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/archondigital/bagoongsociety/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/archondigital/bagoongsociety">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h2>
-<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
+{% for post in paginator.posts %}
 
-<p>A fictional republic in South East Asia run by an oppresive regime. The regime came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech.</p>
+		<article class="article poof">
+			<div class="container">
+				
+				<h2><a href="{{ post.url | prepend: site.baseurl }}">
+				{% if post.title_secondary %}<span class="label secondary t50">{{ post.title_secondary }}: </span><br>{% endif %}
+				
+				{{ post.title }}
+				</a></h2>
+				<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<p><a href="{{ post.url | prepend: site.baseurl }}"><img src="{{ post.featured_image | prepend: site.baseurl }}"></a></p>
+				<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 60 }}</p>
+		  		<p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">continue reading...</a></p>
+		
+			</div>
+		</article>			
 
-<h2>
-<a id="fictional-reportage-on-a-118-scale" class="anchor" href="#fictional-reportage-on-a-118-scale" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fictional Reportage on a 1:18 scale</h2>
+	{% endfor %}
+	<hr>
 
-<p>This is a project I put up to allow for me and my kids to have an activity that we can all enjoy together by working on toy photography, video production and scale modelling.</p>
+	{% if paginator.total_pages > 1 %}
+	<div class="row fullwidth">
+		<div class="large-8 large-centered columns text-center">
+			<ul class="pagination">
+			{% if paginator.previous_page %}
+				<li class="arrow"><a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; Prev</a></li>
+			{% else %}
+				<li class="arrow unavailable"><span>&laquo; Prev</span></li>
+			{% endif %}
+			
+			{% for page in (1..paginator.total_pages) %}
+				{% if page == paginator.page %}
+		    		<li class="current"><a><em>{{ page }}</em></a></li>
+				{% elsif page == 1 %}
+					<li><a href="{{ '/index.html' | replace: '//', '/' }}">{{ page }}</a></li>
+			    {% else %}
+			      	<li><a href="{{ site.url }}/articles/{{ page }}">{{ page }}</a></li>
+			    {% endif %}
+			{% endfor %}
 
-<h2>
-<a id="executive-order-no-118" class="anchor" href="#executive-order-no-118" aria-hidden="true"><span class="octicon octicon-link"></span></a>Executive Order No. 118</h2>
+			{% if paginator.next_page %}
+				<li class="arrow"><a href="{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a></li>
+			{% else %}
+				<li class="arrow unavailable"><span>Next &raquo;</span></li>
+			{% endif %}	
+			</ul>
+			
+			
+		</div>
+	</div>
+	{% endif %}
+			
+		</div>
 
-<p>The number 118 is derived from 1:18 scale used on action figures almost similar to size with 3 3/4" scale G.I. Joe toys from the 80s and 90s.</p>
+		<div class="large-4 columns">
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/60518984&amp;color=ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+			<p>{% include adzone01.html %}</p>
 
-<p>The Philippines was under martial law and a dictatorship for roughly twenty years until it was toppled by a bloodless revolution in 1986. Since then, our youth have entirely forgotten the recent past and is even actively campaigning to restore the former dictator's surviving clan back into power. </p>
+		</div>			
+	</div>
+	
 
-<p>The fictional plot of E.O. 118 is based on real life experiences and situations from past and current events around the world. It is my way of educating my children on past horrors of having lived under a dictatorship and to make them aware of the possibility of our people once again falling into the same situation all over again.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/archondigital">archondigital</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-431457-5");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+</div>
