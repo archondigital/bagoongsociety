@@ -28,10 +28,10 @@
 	<meta name="description" content="{{ page.excerpt | strip_html }}" />
 	{% else %}
 	<!-- default description -->
-	<meta name="twitter:description" content="Archon Digital, World Domination and the Internet - {{ site.description }}">
-	<meta property="og:description" content="Archon Digital, World Domination and the Internet - {{ site.description }}" />
-	<meta itemprop="description" content="Archon Digital, World Domination and the Internet - {{ site.description }}">
-	<meta name="description" content="Archon Digital, World Domination and the Internet - {{ site.description }}" />
+	<meta name="twitter:description" content="Bagoong Society - {{ site.description }}">
+	<meta property="og:description" content="Bagoong Society - {{ site.description }}" />
+	<meta itemprop="description" content="Bagoong Society - {{ site.description }}">
+	<meta name="description" content="Bagoong Society - {{ site.description }}" />
 	{% endif %}
 	<meta name="twitter:creator" content="@archondigital">
 	<meta name="twitter:domain" content="archon.digital{{ page.url }}">
@@ -53,7 +53,7 @@
 	{% if page.keywords %}
 	<meta name="keywords" content="{{ page.keywords }}, {% if page.tags %}{% for tags in page.tags %}{{ tags }}, {% endfor %}{% else %}{% endif %}{{ page.title }}">
 	{% else %}
-	<meta name="keywords" content="Archon Digital, World Domination and the Internet, {% if page.tags %}{% for tags in page.tags %}{{ page.title }}, {{ tags }}{% endfor %}{% else %}{{ page.title }}, {{ page.excerpt | strip_html }}{% endif %}">
+	<meta name="keywords" content="Bagoong Society, {% if page.tags %}{% for tags in page.tags %}{{ page.title }}, {{ tags }}{% endfor %}{% else %}{{ page.title }}, {{ page.excerpt | strip_html }}{% endif %}">
 	{% endif %}
 	
 	<!-- pinterest verification -->
