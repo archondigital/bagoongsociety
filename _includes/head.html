@@ -36,7 +36,7 @@
 	<meta name="twitter:creator" content="@archondigital">
 	<meta name="twitter:domain" content="{{ page.url | prepend: site.baseurl }}">
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="http://{{ page.url | prepend: site.baseurl }}" />
+	<meta property="og:url" content="{{ page.url | prepend: site.baseurl }}" />
 	{% if page.featured_image %}
 	<!-- featured image -->
 	<meta property="og:image" content="{% if page.featured_image_thumb %}{{ page.featured_image_thumb | prepend: site.baseurl }}{% else %}{{ page.featured_image | prepend: site.baseurl }}{% endif %}" />
