@@ -1,4 +1,4 @@
-# Ang Bagoong Society
+# Ang Bagoong Lipunan
 
 ## Overview  
 
