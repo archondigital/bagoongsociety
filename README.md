@@ -2,7 +2,7 @@
 
 ## Overview  
 
-A fictional republic in South East Asia run by an oppresive regime. The regime came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech.
+A fictional republic in South East Asia run by a dictator, the oppresive regime of the Bagoong Lipunan came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech. The capital, Porta Verde, has been placed under martial law as progressives attempt to sway the general public to reject this 'New Society'.
 
 ## Fictional Reportage on a 1:18 scale
 
