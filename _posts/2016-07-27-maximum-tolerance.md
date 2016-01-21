@@ -2,7 +2,7 @@
 title: Civil disobedience will only lead to violence -PM Dusombre.
 author: Ministry of Transparency
 layout: post
-permalink: /quell-unrest/
+permalink: /civil-disobedience/
 excerpt: "Civil disobedience will only lead to violence. Crowd control units from the Ministry of Order and Tranquility gather in formation as protesters march towards parliament. (MT)"
 featured_image: /assets/images/articles/bagoong-society-00749.jpg
 featured_image_thumb: /assets/images/articles/bagoong-society-00749-thumb.jpg
