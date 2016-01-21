@@ -10,7 +10,7 @@ background_position: top center
 bg_color: 'rgba(0, 0, 0, .6);'
 text_color: light
 comments: true
-disqus_identifier: bs-002-s2016
+disqus_identifier: bs-003-s2016
 tags: [Ministry of Transparency]
 ---
 
