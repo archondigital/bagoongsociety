@@ -1,5 +1,5 @@
 ---
-title: Civil disobedience will only lead to violence -PM Dusombre.
+title: Civil disobedience will lead to violence -PM Dusombre.
 author: Ministry of Transparency
 layout: post
 permalink: /civil-disobedience/
