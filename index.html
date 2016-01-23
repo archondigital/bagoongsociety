@@ -7,11 +7,11 @@ layout: home
 		<div class="row">
 			
 			<div class="large-12 columns">
-				<h1>Ang Bagoong Lipunan <br><small>(The Bagoong Society)</small></h1>
+				<h1 class="hide-for-small">Ang Bagoong Lipunan <br><small>(The Bagoong Society)</small></h1>
 				
-				<p>A fictional republic in South East Asia run by an oppresive regime. The regime came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech.</p>
+				<p class="hide-for-small">A fictional republic in South East Asia run by an oppresive regime. The regime came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech.</p>
 
-				<p>News reports below are releases gathered from the Ministry of Transparency, the official propaganda arm of the Bagoong Society, with the exception of some independent news reports culled from other sources.</p>
+				<p><a href="/about/">Learn more</a><span class="show-for-small"> about this site</span>.</p>
 
 			</div>
 		</div>	
@@ -21,6 +21,8 @@ layout: home
 <div id="articles" class="articles">
 	<div class="row">
 		<div class="large-8 columns">
+		<h3 class="text-center">*** Releases ***</h3>
+		<p>News reports below are releases gathered from the Ministry of Transparency, the official propaganda arm of the Bagoong Society, with the exception of some independent news reports culled from other sources. <a href="#articles">More.</a></p>
 
 {% for post in paginator.posts %}
 
@@ -78,7 +80,12 @@ layout: home
 		</div>
 
 		<div class="large-4 columns">
-			<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/60518984&amp;color=ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+			<h4 class="text-center">*** Sidetrack ***</h4>
+
+			<p>Listen to the official and march of the Bagoong Society.</p>
+			<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/60518984&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+			<hr>
+
 			<p>{% include adzone01.html %}</p>
 
 		</div>			
