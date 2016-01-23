@@ -124,7 +124,7 @@ header.site-header {
 
 #about, #projects, #blog {padding-top: 100px; margin: 0;}
   
-  #about {background: url(/assets/images/articles/bagoong-society-01086.jpg) no-repeat bottom center; background-size: cover; min-height: 80%; clear: both; margin-bottom: 1.25rem;}
+  #about {background: url(http://archon.digital/bagoongsociety/assets/images/articles/bagoong-society-01086.jpg) no-repeat bottom center; background-size: cover; min-height: 80%; clear: both; margin-bottom: 1.25rem;}
 
   #about h1, #projects h1, #blog h1 {}
   #about h1 {font-size: 3em;}
