@@ -3,7 +3,7 @@ title: Maximum Tolerance.
 author: Ministry of Transparency
 layout: post
 permalink: /maximum-tolerance/
-excerpt: "Crowd control units exercise restraint as they face off against protesters demanding the repeal of Executive Oeder 118. (MT)"
+excerpt: "Crowd control units exercise restraint as they face off against protesters demanding the repeal of Executive Order 118. (MT)"
 featured_image: /assets/images/articles/bagoong-society-00743.jpg
 featured_image_thumb: /assets/images/articles/bagoong-society-00743-thumb.jpg
 background_position: top center
@@ -17,7 +17,7 @@ tags: [Ministry of Transparency]
 PORTA VERDE (MT) -- Ministry of Order and Tranquility, in a follow up to the Prime Minister's statement the other day, has called for restraint for all sides as clashes between government units and factions calling for the repeal of Executive Order 118.
 
 <img src="{{ site.baseurl }}/assets/images/articles/bagoong-society-00743.jpg">
-<p class="caption">Crowd control units exercise restraint as they face off against protesters demanding the repeal of Executive Oeder 118. (MT)</p>
+<p class="caption">Crowd control units exercise restraint as they face off against protesters demanding the repeal of Executive Order 118. (MT)</p>
 
 "The last thing the Republic wants is bloodshed, needless bloodshed. The Republic recognizes the rights of our _legitimate citizens_ and is urging all those who stand for order and tranquility to return to their homes immediately," the Minister adds, "the new order, this Bagoong Society, will set us on the right track."
 
