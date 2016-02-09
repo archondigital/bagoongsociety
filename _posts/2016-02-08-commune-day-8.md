@@ -20,6 +20,8 @@ tags: [Ministry of Transparency]
 
 PORTA VERDE (MT) -- At least one dead and dozens injured as protesters and government forces clash overnight as shock troopers advance and demolish barricades setup by demonstrators who continue to occupy the university.
 
+<a href="https://www.flickr.com/photos/archondigital/24797472322/" target="_blank">(High resolution image on Flickr)</a>
+
 <div class="panel">
 	<h2><small>A tribute to: The Diliman Commune, February 1-9, 1971</small></h2>
 	

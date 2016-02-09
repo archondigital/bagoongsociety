@@ -6,8 +6,8 @@ baseurl: "http://archon.digital/bagoongsociety"
 url: ""
 username: archondigital
 timezone: Asia/Manila
-paginate: 10
-paginate_path: "articles/:num"
+paginate: 20
+paginate_path: "bagoongsociety/articles/:num"
 
 # Build settings
 markdown: kramdown
