@@ -21,7 +21,7 @@ tags: [Ministry of Transparency]
 PORTA VERDE (MT) -- Government forces engage in skirmishes with students behind the barricades, dismantling makeshift fortifications as they temporarily take over parts of the university.
 
 <div class="panel">
-	<h2><small>The Diliman Commune, February 1-9, 1971</small></h2>
+	<h2><small>A tribute to: The Diliman Commune, February 1-9, 1971</small></h2>
 	
 	<p>In February 1-9, 1971, a year after the beginning of the First Quarter Storm, University of the Philippines students, faculty and other personnel, occupied the state university, barricading the main roads leading to the campus. What started as a transport strike, in protest then of the rising price of petrol, quickly morphed into a rally calling for the overthrow of then President Ferdinand Marcos, one year and nine months before he placed the country under martial law and established a dictatorship that lasted until 1986.</p>
 
