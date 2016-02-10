@@ -27,7 +27,14 @@ PORTA VERDE (MT) -- Students, faculty and non-academic personel of the State Uni
 
 	<p>Ang Bagoong Lipunan will publish in the next nine days, image composites using original photos overlayed with 1/18th scale action figures, as part of its fictional storyline, in commemoration of the Diliman Commune.</p>
 
-	<h6>Sources:</h6>
+	<h6>Other entries in this series</h6>
+	<ul>
+		<li><a href="{{ site.baseurl }}/diliman-commune-day01/">Students, faculty barricade State Univeristy.</a></li>
+		<li><a href="{{ site.baseurl }}/diliman-commune-day02/">Shock troops clash with activists.</a></li>
+		<li><a href="{{ site.baseurl }}/diliman-commune-day08/">Protesters, government clash overnight.</a></li>
+	</ul>
+
+	<h6>Credits/Sources:</h6>
 	<ul>
 		<li><a href="https://www.facebook.com/125780737444829/posts/631027926920105/" target="_blank">Photo from University of the Philippines: A University for Filipinos, 1984.</a></li>
 		<li><a href="http://www.gov.ph/featured/martial-law-timeline/" target="_blank">Martial Law timeline, Official Gazette PH</a></li>

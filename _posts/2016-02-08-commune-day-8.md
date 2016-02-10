@@ -29,9 +29,14 @@ PORTA VERDE (MT) -- At least one dead and dozens injured as protesters and gover
 
 	<p>Ang Bagoong Lipunan will publish in the next nine days, image composites using original photos overlayed with 1/18th scale action figures, as part of its fictional storyline, in commemoration of the Diliman Commune.</p>
 
-	<h6>Sources:</h6>
+	<h6>Other entries in this series</h6>
+	<li><a href="{{ site.baseurl }}/diliman-commune-day01/">Students, faculty barricade State Univeristy.</a></li>
+	<li><a href="{{ site.baseurl }}/diliman-commune-day02/">Shock troops clash with activists.</a></li>
+	<li><a href="{{ site.baseurl }}/diliman-commune-day08/">Protesters, government clash overnight.</a></li>
+
+	<h6>Credits/Sources:</h6>
 	<ul>
-		<li><a href="http://www.arkibongbayan.org/2011/2011-02Feb01-DilimanCommune/dcfeb1.htm" target="_blank">Photo by Steve Santos (image taken from Arkibong Bayan website, Remembering the Diliman Commune of 1971: Feb 1 - 9, 1971 UP Diliman).</a></li>
+		<li><a href="https://www.facebook.com/125780737444829/posts/631027926920105/" target="_blank">Photo from University of the Philippines: A University for Filipinos, 1984.</a></li>
 		<li><a href="http://www.gov.ph/featured/martial-law-timeline/" target="_blank">Martial Law timeline, Official Gazette PH</a></li>
 	</ul>
 </div>
