@@ -59,7 +59,7 @@ layout: home
 				{% if page == paginator.page %}
 		    		<li class="current"><a><em>{{ page }}</em></a></li>
 				{% elsif page == 1 %}
-					<li><a href="{{ '/index.html' | replace: '//', '/' }}">{{ page }}</a></li>
+					<li><a href="{{ site.baseurl }}{{ '/index.html' | replace: '//', '/' }}">{{ page }}</a></li>
 			    {% else %}
 			      	<li><a href="{{ site.baseurl }}/articles/{{ page }}">{{ page }}</a></li>
 			    {% endif %}

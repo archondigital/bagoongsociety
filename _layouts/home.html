@@ -3,7 +3,7 @@
 
   	{% include head.html %}
 
-	<body>
+	<body class="{% for page in (1..paginator.total_pages) %}{% if page == paginator.page %}page-{{ page }}{% endif %}{% endfor %}" >
     {% include analytics.html %}
         
     {% include scripts-body.html %}
