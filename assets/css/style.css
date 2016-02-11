@@ -123,8 +123,9 @@ header.site-header {
 
 
 #about, #projects, #blog {padding-top: 100px; margin: 0;}
-  
-  #about {background: url(/assets/images/articles/bagoong-society-01086.jpg) no-repeat bottom center; background-size: cover; min-height: 80%; clear: both; margin-bottom: 1.25rem;}
+  .page-1 #about.about {height: 80%; min-height: 80%; position: relative;} 
+  #about.about {height: 40%; min-height: 40%; position: relative;} 
+  #about {background: url(/assets/images/articles/bagoong-society-01086.jpg) no-repeat center; background-size: cover; min-height: 80%; clear: both; margin-bottom: 1.25rem;}
 
   #about h1, #projects h1, #blog h1 {}
   #about h1 {font-size: 3em;}
