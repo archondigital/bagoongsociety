@@ -30,9 +30,12 @@ PORTA VERDE (MT) -- At least one dead and dozens injured as protesters and gover
 	<p>Ang Bagoong Lipunan will publish in the next nine days, image composites using original photos overlayed with 1/18th scale action figures, as part of its fictional storyline, in commemoration of the Diliman Commune.</p>
 
 	<h6>Other entries in this series</h6>
-	<li><a href="{{ site.baseurl }}/diliman-commune-day01/">Students, faculty barricade State Univeristy.</a></li>
-	<li><a href="{{ site.baseurl }}/diliman-commune-day02/">Shock troops clash with activists.</a></li>
-	<li><a href="{{ site.baseurl }}/diliman-commune-day08/">Protesters, government clash overnight.</a></li>
+	<ul>
+		<li><a href="{{ site.baseurl }}/diliman-commune-day01/">Students, faculty barricade State Univeristy.</a></li>
+		<li><a href="{{ site.baseurl }}/diliman-commune-day02/">Shock troops clash with activists.</a></li>
+		<li><a href="{{ site.baseurl }}/diliman-commune-day08/">Protesters, government clash overnight.</a></li>
+	</ul>
+	
 
 	<h6>Credits/Sources:</h6>
 	<ul>
