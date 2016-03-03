@@ -3,7 +3,7 @@ title: People power, Mutiny.
 author: Ministry of Transparency
 layout: post
 permalink: /edsa30-tribute01/
-excerpt: "A photojournalist is caught in the middle of a government crackdown on protesters calling for the ouster of Prime Minister Benito Dusombre. He is later released after being detained on suspicion of being part of subversive activities. (MT)"
+excerpt: "A photojournalist is caught in the middle of a government crackdown on protesters calling for the ouster of Prime Minister Benito Dusombre. He is later released after being detained on suspicion of taking part in subversive activities. (MT)"
 featured_image: /assets/images/articles/bagoong-society-5974.jpg
 featured_image_thumb: /assets/images/articles/bagoong-society-5974-thumb.jpg
 background_position: top center
