@@ -17,7 +17,7 @@ tags: [Ministry of Transparency]
 <img src="{{ site.baseurl }}/assets/images/articles/bagoong-society-5974.jpg">
 <p class="caption">{{ page.excerpt }}</p>
 
-PORTA VERDE (MT) -- The fifth day of anti-government protests started violently as government forces continues its crackdown on illegal protests amid reports of a suspected power grab by what appears to be elite military units that have gone rouge.
+PORTA VERDE (MT) -- The fifth day of anti-government protests started violently as government forces continued in its crackdown on illegal protests amid reports of a suspected power grab by what appears to be elite military units that have gone rouge.
 
 <div class="panel">
 	<h2><small>In commemoration of the 30th Anniversary of the EDSA People Power Revolution in 1986.</small></h2>
