@@ -5,10 +5,10 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="refresh" content="0;url={{ page.redirect }}" />
 	
-	<link rel="stylesheet" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/app.css">
+    <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/style.css">
 
-    <script src="{{ "/assets/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/bower_components/modernizr/modernizr.js"></script>
 
 	{% include scripts-head.html %}
 </head>

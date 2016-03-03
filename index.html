@@ -11,7 +11,7 @@ layout: home
 				
 				<p class="hide-for-small">A fictional republic in South East Asia run by an oppresive regime. The regime came unto power through Executive Order No. 118, dissolving the elected Senate and House of Representatives as well as suspending the writ of habeas corpus and suppression of free speech.</p>
 
-				<p><a href="{{ site.baseurl }}/about">Learn more</a><span class="show-for-small"> about this site</span>.</p>
+				<p><a href="{{ site.baseurl | prepend: site.url }}/about">Learn more</a><span class="show-for-small"> about this site</span>.</p>
 
 			</div>
 		</div>	
@@ -50,7 +50,7 @@ layout: home
 		<div class="large-8 large-centered columns text-center">
 			<ul class="pagination">
 			{% if paginator.previous_page %}
-				<li class="arrow"><a href="{{ site.baseurl }}{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; Prev</a></li>
+				<li class="arrow"><a href="{{ site.baseurl | prepend: site.url }}{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; Prev</a></li>
 			{% else %}
 				<li class="arrow unavailable"><span>&laquo; Prev</span></li>
 			{% endif %}
@@ -59,14 +59,14 @@ layout: home
 				{% if page == paginator.page %}
 		    		<li class="current"><a><em>{{ page }}</em></a></li>
 				{% elsif page == 1 %}
-					<li><a href="{{ site.baseurl }}{{ '/index.html' | replace: '//', '/' }}">{{ page }}</a></li>
+					<li><a href="{{ site.baseurl | prepend: site.url }}{{ '/index.html' | replace: '//', '/' }}">{{ page }}</a></li>
 			    {% else %}
-			      	<li><a href="{{ site.baseurl }}/articles/{{ page }}">{{ page }}</a></li>
+			      	<li><a href="{{ site.baseurl | prepend: site.url }}/articles/{{ page }}">{{ page }}</a></li>
 			    {% endif %}
 			{% endfor %}
 
 			{% if paginator.next_page %}
-				<li class="arrow"><a href="{{ site.baseurl }}{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a></li>
+				<li class="arrow"><a href="{{ site.baseurl | prepend: site.url }}{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a></li>
 			{% else %}
 				<li class="arrow unavailable"><span>Next &raquo;</span></li>
 			{% endif %}	
