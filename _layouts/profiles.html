@@ -1,0 +1,118 @@
+---
+layout: default
+---
+<div class="page">
+	<header class="post-header">
+		<div class="row">
+			<div class="large-12 columns">
+			<h1 id="entry-title">{% if page.position-prefix %}{{ page.position-prefix }} {% endif %}{{ page.tag }}{% if page.position-current %}, <small>{{ page.position-current }}</small>{% endif %}</h1>
+			</div>
+		</div>
+	</header>			
+
+	<article class="post-content">
+		<div class="row">
+			<div class="large-12 columns">
+				{% include snippet-social.html %}
+			</div>
+		</div>
+		{% if page.excerpt %}
+		<div class="row">
+			<div class="large-12 columns">
+				<p class="lead">{{ page.excerpt }}</p>
+			</div>
+		</div>
+		{% endif %}
+
+		<br>
+		<div class="row">
+			
+			<div class="large-7 columns">
+
+				{{ page.content | markdownify }}
+				
+				<ul class="clearing-thumbs large-block-grid-2 medium-block-grid-2 small-block-grid-2" data-clearing>
+			    	
+				    {% if site.tags[page.tag] %}
+			        {% for post in site.tags[page.tag] %}
+			    
+			        	{% if post.featured_image %}
+							{% for pic in post.featured_image %}
+							<li>
+								<a class="th" href="{{ post.featured_image | prepend: site.baseurl }}" style="max-height:275px; overflow:hidden;">
+								<img class="link-to-post" title="{{ post.title }}" alt="{{ post.title }}" src="
+								{% if post.featured_image_thumb %}{{ post.featured_image_thumb | prepend: site.baseurl }}{% else %}{{ post.featured_image | prepend: site.baseurl }}{% endif %}" data-caption="{{ post.title }}. {{ post.excerpt | strip_html }}"
+								href="{{ post.url | prepend: site.baseurl }}" />
+								</a>
+							</li>
+							{% endfor %}
+						{% else %}
+						{% endif %}
+
+
+				        {% endfor %}
+				    {% else %}
+				       
+					{% endif %}	    
+			    </ul> 
+				
+			</div>
+
+			<div class="large-5 columns">
+				
+					{% if page.position-current %}<h3><small>Position</small></h3>{% endif %}	
+					<ul class="no-bullet">
+						{% if page.position-current %}<li>Current: {{ page.position-current }}</li>{% endif %}	
+						{% if page.position-past %}<li>Past: {{ page.position-past }}</li>{% endif %}	
+					</ul>
+				<hr>
+			
+				<h3><small>Archives</small></h3>
+
+			    {% if site.tags[page.tag] %}
+			        {% for post in site.tags[page.tag] %}
+			            {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+			            {% if forloop.first %}
+			                <h3>{{ post_year }}</h3>
+			                <div class="list-group">
+			                	<ul class="past no-bullet">
+			            {% endif %}
+						
+			            {% if forloop.first == false %}
+			                {% assign previous_index = forloop.index0 | minus: 1 %}
+			                {% capture previous_post_year %}{{ site.tags[page.tag][previous_index].date | date: '%Y' }}{% endcapture %}
+			                {% if post_year != previous_post_year %}
+			                    </div><h3>{{ post_year }}</h3>
+			                    <div class="list-group">
+			                    	<ul class="past no-bullet">
+			                {% endif %}
+			            {% endif %}
+						
+										<li>
+											<div class="row collapse">
+												<div class="large-2 columns"><time class="meta" style="display:inline-block;width:3.25rem;">{{ post.date | date:"%d %b" }}:</time></div>
+												<div class="large-10 columns"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}{% if post.title_secondary %} <span class="label secondary t50">{{ post.title_secondary }}</span>{% endif %}</a></div>
+											</div>
+										</li>			            			
+
+			            {% if forloop.last %}
+			            		</ul>
+			                </div>
+			            {% endif %}
+			        {% endfor %}
+			    {% else %}
+			        <p>There are no posts for this topic. Check our <a href="/archives/">archives</a> for more posts.</p>
+			    {% endif %}
+			
+			
+				
+				<h3><small>Browse other Tags/Topics</small></h3>
+			    <ul class="widget-tags">
+			    {% include snippet-tags-widget.html %}
+			    </ul>
+				<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+			</div>			
+		</div>
+	</article>
+
+</div>
