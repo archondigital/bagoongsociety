@@ -2,9 +2,10 @@
 				<ul class="widget-tags"><p class="meta">{{ tags_content }}</p> 
 				{% if page.tags %}
 					{% for tags in page.tags %}
+					
 					<li><a class="not-yellow" href="{{ site.baseurl }}/topic/{{ tags | slugify }}/">{{ tags }}</a></li>
 					{% endfor %}
 				{% else %}
 				{% endif %}	
 				</ul>
-			</div>
+			</div>			
