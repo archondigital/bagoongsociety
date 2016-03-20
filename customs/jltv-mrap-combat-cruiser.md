@@ -12,6 +12,8 @@ comments: true
 		<p class="label">Status: Work in Progesss</p>
 		<p class="lead">Joint Light Tactical Vehicle or a Light Mine-Resistant Ambush Protected vehicle. Made out of a Ninja Combat Cruiser from the G.I. Joe Retaliation line.</p>
 
+		<p>This is still a work in progress, I've yet to create a SAG turret and if I would cut off back portion and scratchbuild a new that would resemble the OshKosh JLTV.</p>
+
 		<p><img src="{{ site.baseurl }}/assets/images/customs/jltv-04283.jpg"></p>
 
 		<h4>Gallery</h4>
