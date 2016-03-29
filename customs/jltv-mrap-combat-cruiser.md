@@ -3,8 +3,8 @@ layout: projects-entry
 title: JLTV / Light MRAP
 title_secondary: Custom
 permalink: /customs/jltv-mrap-combat-cruiser/
-featured_image: /assets/images/customs/jltv-04283.jpg
-featured_image_thumb: /assets/images/customs/jltv-04283-thumb.jpg
+featured_image: /assets/images/customs/jltv-04333.jpg
+featured_image_thumb: /assets/images/customs/jltv-04333-thumb.jpg
 comments: true
 ---
 <div class="row">
@@ -14,7 +14,7 @@ comments: true
 
 		<p>This is still a work in progress, I've yet to create a SAG turret and if I would cut off back portion and scratchbuild a new hood that would resemble the OshKosh JLTV.</p>
 
-		<p><img src="{{ site.baseurl }}/assets/images/customs/jltv-04283.jpg"></p>
+		<p><img src="{{ site.baseurl }}/assets/images/customs/jltv-04333.jpg"></p>
 
 		<h4>Gallery</h4>
 		<p>
@@ -52,6 +52,18 @@ comments: true
 				<li>
 				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04288.jpg">
 				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04288-thumb.jpg" data-caption="Compared to M1A1 Abrams" />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04332.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04332-thumb.jpg" data-caption="Compared to Ninja Combat Cruiser (Original)" />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04342.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04342-thumb.jpg" data-caption="Compared to a USMC AAV-P7/A1 (LTVP-7) Assault Amphibious Vehicle." />
 				  </a>
 				</li>
 
@@ -345,6 +357,54 @@ comments: true
 
 		<img src="{{ site.baseurl }}/assets/images/customs/jltv-04305.jpg">
 		<p class="caption">Chassis raised and larger tires are installed.</p>
+
+		<!-- march 24 -->
+		<p class="label secondary">March 24, 2016</p>
+		<h4>Objective Gunner Protection Kit.</h4>
+		<p>Finally found time to scratch build a rough gunner turret.</p>
+
+		<img src="{{ site.baseurl }}/assets/images/customs/jltv-04333.jpg">
+
+		<p>
+			<ul class="clearing-thumbs large-block-grid-4 medium-block-grid-3 small-block-grid-3" data-clearing>
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04333.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04333-thumb.jpg" data-caption="Objective Gunner Protection Kit." />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04335.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04335-thumb.jpg" data-caption="Objective Gunner Protection Kit." />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04337.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04337-thumb.jpg" data-caption="Objective Gunner Protection Kit." />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04348.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04348-thumb.jpg" data-caption="Objective Gunner Protection Kit." />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04351.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04351-thumb.jpg" data-caption="Objective Gunner Protection Kit." />
+				  </a>
+				</li>
+
+				<li>
+				  <a class="th" href="{{ site.baseurl }}/assets/images/customs/jltv-04359.jpg">
+				  <img title="{{ page.title }}" alt="{{ page.title }}. {{ page.excerpt }}" src="{{ site.baseurl }}/assets/images/customs/jltv-04359-thumb.jpg" data-caption="Objective Gunner Protection Kit." />
+				  </a>
+				</li>
+
+			</ul>
+		</p>
 			
 	</div>
 
